@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing:content-box;
+        }
+        nav
+        {
+            background-color:lightgrey;
+            display:flex;
+            justify-content: space-between;
+        }
+        nav ul{
+            display:flex;
+            list-style: none;
+        }
+        nav ul li{
+            margin:5px;
+        }
+        h3{
+            color:orangered;
+        }
+        .head{
+           background-color: black;
+           color:white;
+           display: flex;
+           flex-direction: column;
+           height: 23vh;
+           padding-top:45px;
+           text-align: center;
+           font-weight:1000px;
+           font-size:30px;
+       }
+       .sec1{
+        text-align: center;
+        background-color:lightgrey;
+        color:black;
+        height: 30vh;
+        padding-top:60px;
+       }
+        *{
+            padding:0px;
+            margin: 0px;
+        }
+        .layout{
+            background-color: black;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 10vh 20vh 20vh 40vh 10vh;
+            grid-template-areas:"a a a"
+            "b  b b"
+            "c c c"
+            "d d d"
+            "e e e";    
+        }
+        .para{
+            padding-left: 90px;
+        }
+        .para2{
+            font-size:1.5rem;
+            padding-right:900px;
+        }
+        .para3{
+            padding-left:290px;
+            text-align:left;
+        }
+        .flex-container{
+            height:35vh;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+        }
+        *{
+            padding:0px;
+            margin: 0px;
+            box-sizing: border-box;
+            
+        }
+        .flexbox{
+            width:230px;
+            height: 170px;;
+            color: black;
+            background:  white;
+            border-radius: 10px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .para4{
+            background-color:black ;
+            color:white;
+            text-align:center;
+            padding-left: 20vh;
+            padding-top: 35px;
+            padding-left: 10px;
+        }
+       .para5{
+        background-color:black ;
+            color:white;
+            text-align:center;
+            padding-left: 20vh;
+            padding-left: 10px;
+            padding-top: 10px;
+       }
+    </style>
+</head>
+<body>
+        <nav class="navbar">
+            <h3>Name</h3>
+            <ul>
+               <li>Home</li>
+               <li>About me</li>
+               <li>Achievements</li>
+               <li>Skills</li>
+               <li>Contact</li>
+            </ul>    
+        </nav>
+        <header class="head">
+            <p class="para"><strike>Practice Makes Perfect</strike></p>
+            <p class="para1">Perfect Practice Makes Perfect</p>
+        </header>
+        <section class="sec1">
+            <p class="para2">Name</p><br>
+            <p class="para3"><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eu quam massa. Sed congue sapien sit amet cursus molestie. Sed posuere nisl quis nibh volutpat efficitur. Vivamus vitae dui ipsum. Donec vitae interdum eros, at eleifend mi. Suspendisse potenti. Cras aliquam consectetur posuere. Duis volutpat fringilla turpis, ac ruturum lacus faucibus vel.</small></p>
+        </section>
+        <p class="para4">Achievements</p>
+        <p class="para5">Some of my best projects so far</p>
+        <main class="flex-container">
+            <main class="flexbox">School Cricket Team Captain</main>
+            <main class="flexbox">item2</main>
+            <main class="flexbox">item3</main>
+        </main>
+        <section class="sec2"></section>
+        <footer class="foot"></footer>
+</body>
+</html>
