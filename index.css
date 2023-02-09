@@ -1,0 +1,16 @@
+.para{
+    background-color: rgb(222, 194, 159);
+    color:rgb(130, 59, 9);
+    text-align:justify;
+    font-family:cursive;
+    text-indent:1cm;
+}
+#line{
+    color:rgb(157, 57, 57);
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.2cm;
+    line-height: 0.5cm;
+    text-decoration:underline double 2px;
+    text-transform:uppercase;
+}
